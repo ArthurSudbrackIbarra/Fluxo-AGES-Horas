@@ -8,4 +8,4 @@ Este projeto **NÃO** estimula o forjamento de horas dentro do Fluxo AGES, possu
 
 Copie o código dentro de `main.js`, cole-o no console do site do Fluxo AGES na **tela de abrir/fechar horas** e pressione enter.
 
-![Demo-Image](./demo-image.png)
+![Demo-Image](./image-demo.png)
