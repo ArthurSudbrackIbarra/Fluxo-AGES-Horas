@@ -16,13 +16,13 @@ function start(info) {
         const currentTime = Date.now(); 
         if(currentTime >= finalTime) {
             clearInterval(timeCounting);
+            playAlarm();
             if(openCloseHoursButton.hasAttribute("disabled")) {
                 showErrorMessages();
             } else {
                 openCloseHoursButton.click();
                 showSuccessMessages();
             }       
-            playAlarm();
         }
     }, 100);
 }
