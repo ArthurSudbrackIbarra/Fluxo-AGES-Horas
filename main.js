@@ -37,7 +37,7 @@ function start(info) {
             clearInterval(timeCounting);
             localStorage.removeItem(FINAL_TIME_FIELD);
             playAlarm();
-            if(openCloseHoursButton.hasAttribute("disabled")) {
+            if (openCloseHoursButton.hasAttribute("disabled")) {
                 setTimeout(() => {
                     showErrorMessages();
                 }, 5000);
