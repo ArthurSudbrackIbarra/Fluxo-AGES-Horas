@@ -61,9 +61,7 @@ function showInfoMessages(verb) {
 }
 // Mostra mensagens de erro.
 function showErrorMessages() {
-    const errorMessage = "Você digitou muito pouco ou nada no campo do que foi feito e suas horas não puderam ser fechadas!";
-    console.error(errorMessage);
-    alert(errorMessage);
+    console.error("Você digitou muito pouco ou nada no campo do que foi feito e suas horas não puderam ser fechadas!");
 }
 // Mostra a mensagem de sucesso.
 function showSuccessMessages() {
